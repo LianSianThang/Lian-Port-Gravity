@@ -107,7 +107,7 @@ def main():
                 'python_bundled': True, 'launcher': 'Lian-Port-Gravity/Launch_Lian_Port.exe',
                 'files': {p.relative_to(output).as_posix(): sha256(p) for p in files}}
     (project / 'package_manifest.json').write_text(json.dumps(manifest, indent=2) + '\n')
-    archive = output.with_suffix('.zip')
+    archive = Path(str(output) + '.zip')
     with zipfile.ZipFile(archive, 'x', compression=zipfile.ZIP_DEFLATED, compresslevel=1) as zipped:
         zipped.writestr('Lian-Port-Gravity/game/CUSA01130/', '')
         for path in output.rglob('*'):
