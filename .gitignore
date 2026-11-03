@@ -1,0 +1,46 @@
+# Local game dump, package and generated images must never enter Git.
+/game/
+*.pkg
+*.prx
+eboot.bin
+boot_gravity.bin
+
+# Runtime installs, diagnostics, saves and build products.
+/app/bin/
+/app/out/
+/app/logs/
+/app/user/
+/app/tools/vulkan-validation/clang64/
+/app/tools/vulkan-validation/*.pkg.tar.*
+/app/launcher_settings*.json
+/local-data/
+/user/
+/dist/
+/_internal/
+/runtime/out/
+/runtime/user/
+/runtime/build/
+/runtime/dist/
+**/__pycache__/
+*.pyc
+*.bak
+*.exe
+*.dll
+*.pdb
+*.o
+*.obj
+*.a
+*.lib
+*.log
+*.lnk
+.env
+.env.*
+*.pem
+*.p12
+*.pfx
+
+# Reference checkouts belong beside this repository, not inside it.
+/references/
+
+# This project does not publish or use GitHub Actions/CI workflows.
+**/.github/workflows/
