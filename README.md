@@ -1,5 +1,7 @@
 # Lian Port — Gravity Rush Remastered
 
+Hobby project, no longer actively maintained. Based on SpartanPort and shadPS4 (GPL-2.0); see [LICENSES/](LICENSES/) and [NOTICE.md](NOTICE.md).
+
 An **experimental community PC runtime for Gravity Rush Remastered (PS4),
 CUSA01130**, built on SpartanPort and shadPS4 with additional upstream and local
 Gravity Rush work. Original x86-64 game code runs through the runtime; graphics

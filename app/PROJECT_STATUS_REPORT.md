@@ -241,7 +241,7 @@ Strict budget limits were requested by the user to protect system drives.
 
 | Item / Path | Type / Source | Status & Role |
 |---|---|---|
-| `[SPSX]-Gravity.Rush.Remastered-CUSA01130...pkg` | 9.31 GB Game Package | Preserved intact; verified decrypted dump in `CUSA01130`. |
+| `original game package (not distributed)` | 9.31 GB Game Package | Preserved intact; verified decrypted dump in `CUSA01130`. |
 | `C:\Testing PS4 Port\CUSA01130` | Extracted PS4 Game Root | Read-only target. Contains `eboot.bin`, `sce_module/libc.prx`, `sce_module/libSceFios2.prx`, and `arc/*.psarc` (8.32 GB assets). |
 | `C:\Testing PS4 Port\SpartanPort-main` | Reference C/C++ Runtime | Source reference for PS4 GnmDriver, VideoOut, Vulkan translator, and POSIX/Sony kernel wrappers. |
 | `C:\Testing PS4 Port\shadPS4-main` | Emulator Reference | Reference for AeroLib NID definitions, AvPlayer HLE, and shader decompilation. |

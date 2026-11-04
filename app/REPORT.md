@@ -58,7 +58,7 @@ The workspace at `C:\Testing PS4 Port` contains six resource directories and one
 
 | Resource Directory / File | Type / Provenance | Git / Commit Status | License | Build / Binary Status |
 |---|---|---|---|---|
-| `[SPSX]-Gravity.Rush.Remastered-CUSA01130-USA-Game-(5.05+)-PS4.pkg` | Target Game PKG (9,999,876,096 bytes) | Retail / Fake PKG format container | Proprietary (Sony / Bluepoint Games) | Raw package file |
+| `original game package (not distributed)` | Target Game PKG (9,999,876,096 bytes) | Retail / Fake PKG format container | Proprietary (Sony / Bluepoint Games) | Raw package file |
 | `CUSA01130\` | Extracted Game Directory | Extracted dump | Proprietary (Sony / Bluepoint Games) | Extracted: contains unencrypted `eboot.bin`, `sce_sys`, `sce_module`, `arc` |
 | `shadPS4-main\` | Upstream Emulator Source (`shadps4-emu/shadPS4`) | Unpacked source zip (no `.git` directory) | GPL-2.0-or-later | Source only (unbuilt; submodules empty due to GitHub archive format) |
 | `SpartanPort-main\` | God of War III Native PC Port Source (`FelipePrado0/SpartanPort`) | Unpacked source zip (no `.git` directory) | GPL-2.0-only | Source only (unbuilt; submodules empty) |
@@ -71,7 +71,7 @@ The workspace at `C:\Testing PS4 Port` contains six resource directories and one
 ## 3. Target Game Analysis: Gravity Rush Remastered (CUSA01130)
 
 ### 3.1 Package and Container Status
-- **Package Container:** `[SPSX]-Gravity.Rush.Remastered-CUSA01130-USA-Game-(5.05+)-PS4.pkg` (9.31 GiB).
+- **Package Container:** `original game package (not distributed)` (9.31 GiB).
 - **Magic Bytes:** `7f 43 4e 54` (`\x7fCNT`), standard Sony PS4 package format.
 - **Extraction Tool Evaluation:** `ShadPs4Plus-PkgExtractor-1.1-windows\pkg_extractor.exe` was verified via execution. It operates on PS4 PKG archives. However, extraction is **already complete** in `C:\Testing PS4 Port\CUSA01130`.
 
